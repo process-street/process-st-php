@@ -6,7 +6,7 @@ class ProcessStreet {
 
     private static $apiKey;
 
-    private static $apiBase = 'https://api.process.st';
+    public static $apiBase = 'https://api.process.st';
 
     const VERSION = '0.1.0';
 
